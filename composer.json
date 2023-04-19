@@ -1,0 +1,23 @@
+{
+  "name": "pmpr-cvr/wp-cvr-filefox",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Filefox Cover for Wordpress",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "cover",
+    "filefox"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr-cmn/wp-cmn-cover": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Cover\\Filefox\\": "src/Pmpr/Cover/Filefox"
+    }
+  },
+  "minimum-stability": "dev",
+  "version": "1.0.0"
+}

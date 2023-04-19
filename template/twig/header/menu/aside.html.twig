@@ -1,0 +1,38 @@
+{% embed get_cover_template('common/aside') with {
+    aside_id: 'mobile',
+    padding: 8,
+    is_right: 0,
+    has_close: 1,
+    has_header: 0,
+    has_footer: 0,
+    full_height: 0,
+    close_color: 'white',
+    wrapper_class: 'bg-primary text-white',
+    container_class: 'top-48 d-table'
+} %}
+    {% block aside_content %}
+        <div class="mobile-header-content">
+
+            {% if has_nav_menu('mobile-menu') %}
+                <nav class="mb-5">
+                    {{ wp_nav_menu({
+                        theme_location: 'mobile-menu',
+                        container_class: ''
+                    }) }}
+                </nav>
+            {% endif %}
+
+            {% if is_active_sidebar('mobile-aside') %}
+                {{ dynamic_sidebar('mobile-aside') }}
+            {% endif %}
+        </div>
+    {% endblock %}
+
+    {% block aside_close %}
+        <a href="#" class="aside-close position-absolute top-0 right-0 p-8">
+            {{ render_icon('fasm/6/set/xmark', {class: 'icon-lg icon-white' }) }}
+        </a>
+    {% endblock %}
+
+{% endembed %}
+

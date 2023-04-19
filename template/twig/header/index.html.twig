@@ -1,0 +1,41 @@
+{{ pmpr_do_action('start_render_header') }}
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html dir="rtl" lang="fa" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html dir="rtl" lang="fa" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html dir="rtl" lang="fa" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html dir="rtl" lang="fa" class="no-js"> <!--<![endif]-->
+
+<head>{{ wp_head() }}</head>
+<body {{ body_class() }} id="top">
+
+{% if pmpr_apply_filters('has_header', 1) %}
+
+    <header id="site_header" class="site-header header-area">
+        {% set is_add_aside = not is_desktop() %}
+        {% set navbar_classes = pmpr_apply_filters('header_navbar_classes', []) %}
+        {% set allow_breadcrumb = pmpr_apply_filters('breadcrumb_allow_render', 1) %}
+        <nav class="navbar border-bottom main-nav bg-white {{ navbar_classes|join(' ') }}">
+            <div class="container d-flex justify-content-lg-between flex-lg-nowrap">
+
+                {% include get_template('./menu/right', _self) %}
+
+                <div class="d-flex justify-content-between">
+                    {% if is_add_aside %}
+                        <a href="#" data-target="#mobile_aside"
+                           class="d-block d-lg-none aside-toggle my-auto mr-4">
+                            {{ render_icon(mobile_aside_icon, {class: 'icon-lg icon-white'}) }}
+                        </a>
+                    {% endif %}
+                    {% include get_template('./menu/left', _self) %}
+                </div>
+            </div>
+        </nav>
+        {% if allow_breadcrumb %}
+            {% include get_template('./breadcrumb', _self) %}
+        {% endif %}
+    </header>
+{% endif %}
