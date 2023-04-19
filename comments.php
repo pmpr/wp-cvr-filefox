@@ -1,3 +1,7 @@
-<?php pmpr_do_action('render_comments');
-
-
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ pmpr_do_action("\x72\x65\x6e\144\x65\x72\137\143\157\x6d\x6d\x65\156\164\163");

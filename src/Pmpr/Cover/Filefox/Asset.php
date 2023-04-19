@@ -1,41 +1,7 @@
 <?php
-
-namespace Pmpr\Cover\Filefox;
-
-/**
- * Class Asset
- * @package Pmpr\Cover\Filefox
- */
-class Asset extends Container
-{
-    public function addActions()
-    {
-        $this->addAction('after_setup_theme', [$this, 'enqueue'])
-             ->addAction('wp_enqueue_scripts', [$this, 'dequeue']);
-    }
-
-    public function dequeue()
-    {
-        $this->getWrapper()->getAsset()->dequeueStyle('global-styles');
-    }
-
-    public function enqueue()
-    {
-        $manager = $this->getAssetManager();
-        if (!$this->getHelper()->getQuery()->isAMP()) {
-
-            $target = 'app';
-            $font   = 'https://v1.fontapi.ir/css/Vazir';
-
-            $manager->addFrontSource($manager->getStyleSource('font', $font))
-                    ->addFrontSource($manager->getStyleSource($target, $manager->get("{$target}.css")));
-
-            $manager->addFrontSource(
-                $manager->getScriptSource(
-                    $target, $manager->get("{$target}.js")
-                )->addCommonDependencies()
-            );
-        }
-    }
-
-}
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Cover\Filefox; class Asset extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\141\146\x74\x65\162\x5f\163\145\164\165\160\x5f\164\x68\145\x6d\x65", [$this, "\145\x6e\x71\x75\145\165\x65"])->qcsmikeggeemccuu("\x77\160\137\x65\x6e\161\165\145\x75\145\x5f\x73\143\162\x69\x70\164\163", [$this, "\x64\x65\x71\x75\145\x75\145"]); } public function dequeue() { $this->uwkmaywceaaaigwo()->usugyumcgeaaowsi()->qkyugogwegiuiime("\147\x6c\x6f\x62\141\x6c\55\x73\x74\171\154\x65\x73"); } public function enqueue() { $eygsasmqycagyayw = $this->miocmcoykayoyyau(); if ($this->caokeucsksukesyo()->owicscwgeuqcqaig()->goumkccmgysgqueu()) { goto qwigomakwmyiwkgo; } $ccamueccusigaaio = "\x61\x70\160"; $iaaeswuecqawokwi = "\150\164\x74\160\x73\72\57\57\166\61\56\146\157\156\x74\141\x70\x69\x2e\151\162\57\143\163\x73\57\126\x61\172\x69\x72"; $eygsasmqycagyayw->oeoquuwkoywiuesy($eygsasmqycagyayw->awgyqswkqywwmkye("\146\157\x6e\164", $iaaeswuecqawokwi))->oeoquuwkoywiuesy($eygsasmqycagyayw->awgyqswkqywwmkye($ccamueccusigaaio, $eygsasmqycagyayw->get("{$ccamueccusigaaio}\56\x63\163\x73"))); $eygsasmqycagyayw->oeoquuwkoywiuesy($eygsasmqycagyayw->owygwqwawqoiusis($ccamueccusigaaio, $eygsasmqycagyayw->get("{$ccamueccusigaaio}\56\x6a\x73"))->simswskycwagoeqy()); qwigomakwmyiwkgo: } }

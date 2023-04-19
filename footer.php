@@ -1,2 +1,7 @@
-<?php pmpr_do_action('render_footer');
-
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ pmpr_do_action("\162\145\156\144\145\162\x5f\146\x6f\157\164\145\x72");

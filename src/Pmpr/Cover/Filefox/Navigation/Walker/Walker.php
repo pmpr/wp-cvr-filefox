@@ -1,14 +1,7 @@
 <?php
-
-namespace Pmpr\Cover\Filefox\Navigation\Walker;
-
-use Pmpr\Common\Cover\Navigation\Walker as BaseClass;
-
-/**
- * Class Walker
- * @package Pmpr\Cover\Filefox\Navigation\Walker
- */
-class Walker extends baseClass
-{
-
-}
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Cover\Filefox\Navigation\Walker; use Pmpr\Common\Cover\Navigation\Walker as BaseClass; class Walker extends baseClass { }

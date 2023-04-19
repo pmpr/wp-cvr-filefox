@@ -1,54 +1,7 @@
 <?php
-
-namespace Pmpr\Cover\Filefox;
-
-/**
- * Class Breadcrumb
- * @package Pmpr\Cover\Filefox
- */
-class Breadcrumb extends Container
-{
-    public function addFilters()
-    {
-        $this->customAddFilter('breadcrumb_generate_args', [$this, 'breadcrumbArgs'])
-             ->customAddFilter('breadcrumb_allow_render', [$this, 'disableBreadcrumbOnFrontPage'], 99);
-    }
-
-    /**
-     * @param array $args
-     *
-     * @return array
-     */
-    public function breadcrumbArgs(array $args = []): array
-    {
-        return $this->getHelper()->getFormat()->arrayParseArgs([
-            'divider'           => '/',
-            'wrap_attrs'        => [
-                'class' => 'px-0 py-3 m-0',
-            ],
-            'link_attrs'        => [
-                'class' => 'fs-xs font-weight-bold',
-            ],
-            'item_attrs'        => [
-                'class' => 'd-table-cell text-nowrap',
-            ],
-            'divider_attrs'     => [
-                'class' => 'mx-2 text-primary',
-            ],
-            'link_container'    => null,
-            'active_item_attrs' => [
-                'class' => 'active text-muted fs-xs d-table-cell text-nowrap',
-            ],
-        ], $args);
-    }
-
-    /**
-     * @param $let
-     *
-     * @return bool
-     */
-    public function disableBreadcrumbOnFrontPage($let): bool
-    {
-        return $let && !$this->getWrapper()->getQuery()->isFrontPage();
-    }
-}
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Cover\Filefox; class Breadcrumb extends Container { public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom("\142\162\145\141\x64\x63\162\165\155\x62\x5f\147\x65\x6e\145\162\141\x74\x65\137\141\x72\147\163", [$this, "\x6c\x6f\171\x61\157\165\x6b\151\x71\171\x6f\143\147\x75\155\x6d"])->aqaqisyssqeomwom("\142\x72\145\141\144\143\162\165\155\142\137\x61\x6c\x6c\157\x77\x5f\162\145\x6e\x64\x65\162", [$this, "\155\x67\x75\141\x67\147\157\x71\165\145\171\153\x75\153\x6b\x61"], 99); } public function loyaoukiqyocgumm(array $ywmkwiwkosakssii = []) : array { return $this->caokeucsksukesyo()->gyecsegqciqykomu()->ckscqqquyskscaaw(["\x64\x69\166\x69\144\145\x72" => "\x2f", "\167\162\x61\x70\137\x61\x74\x74\x72\x73" => ["\143\154\141\163\163" => "\160\170\55\60\40\x70\x79\55\63\40\155\55\60"], "\154\x69\x6e\153\x5f\x61\x74\x74\x72\x73" => ["\143\154\141\163\163" => "\146\163\x2d\x78\x73\40\x66\157\156\x74\55\167\x65\151\147\150\164\55\142\157\154\144"], "\x69\x74\145\x6d\x5f\141\x74\x74\x72\163" => ["\143\154\x61\163\x73" => "\144\x2d\164\141\x62\x6c\x65\x2d\x63\x65\154\x6c\40\164\x65\x78\164\x2d\156\x6f\x77\162\x61\x70"], "\144\151\166\x69\x64\145\162\137\x61\x74\164\162\163" => ["\x63\x6c\x61\x73\x73" => "\155\x78\55\x32\x20\164\x65\170\164\x2d\160\162\x69\155\x61\x72\171"], "\154\151\156\153\137\x63\157\156\x74\x61\x69\156\x65\x72" => null, "\141\143\164\151\166\145\x5f\151\x74\x65\155\137\141\x74\164\x72\x73" => ["\143\x6c\x61\163\x73" => "\x61\x63\x74\151\x76\x65\40\x74\x65\170\164\55\x6d\x75\164\x65\x64\x20\146\x73\55\170\163\x20\x64\55\164\x61\x62\x6c\145\55\x63\x65\154\154\40\164\145\x78\x74\55\156\157\x77\x72\141\160"]], $ywmkwiwkosakssii); } public function mguaggoqueykukka($gkuksucqwuewkwws) : bool { return $gkuksucqwuewkwws && !$this->uwkmaywceaaaigwo()->owicscwgeuqcqaig()->takycgcamoacksqw(); } }

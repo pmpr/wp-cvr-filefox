@@ -1,50 +1,7 @@
 <?php
-
-namespace Pmpr\Cover\Filefox;
-
-use Pmpr\Common\Foundation\Interfaces\IconInterface;
-
-/**
- * Class Header
- * @package Pmpr\Cover\Filefox
- */
-class Header extends Container
-{
-    public function addActions()
-    {
-        $this->addAction('widgets_init', [$this, 'registerSidebar'])
-             ->addAction('widgets_init', [$this, 'removeRecentCommentsStyle']);
-
-        $this->customAddAction('render_header', [$this, 'render']);
-    }
-
-    public function addFilters()
-    {
-
-    }
-
-    public function render()
-    {
-        [$template, $parameters] = $this->applyFilters('cover_template_requirements', [$this->getTemplateFile('index'), []]);
-
-        echo $this->renderTemplate($template, $parameters);
-    }
-
-    public function registerSidebar()
-    {
-        $this->getHelper()->getTheme()->registerSidebar('mobile-aside', __('Mobile Aside', PR__CVR__FILEFOX), [
-            self::BEFORE_WIDGET => '',
-            self::AFTER_WIDGET  => '',
-        ]);
-    }
-
-    public function removeRecentCommentsStyle()
-    {
-        global $wp_widget_factory;
-        $this->removeAction('wp_head', [
-            $wp_widget_factory->widgets['WP_Widget_Recent_Comments'],
-            'recent_comments_style',
-        ]);
-    }
-
-}
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Cover\Filefox; use Pmpr\Common\Foundation\Interfaces\IconInterface; class Header extends Container { public function wigskegsqequoeks() { $this->qcsmikeggeemccuu("\167\x69\144\147\145\x74\163\137\151\x6e\151\164", [$this, "\x79\x6d\141\171\167\x63\143\141\151\x73\x63\x73\155\x73\151\x6b"])->qcsmikeggeemccuu("\167\x69\144\147\x65\x74\163\137\x69\156\x69\164", [$this, "\155\x79\163\x61\x6d\167\145\x67\x67\x61\155\x65\153\147\x6f\167"]); $this->waqewsckuayqguos("\162\x65\x6e\x64\145\162\137\x68\x65\141\x64\145\162", [$this, "\162\x65\156\x64\145\162"]); } public function kgquecmsgcouyaya() { } public function render() { [$qqscaoyqikuyeoaw, $qookweymeqawmcwo] = $this->sscegwueamckwmcy("\143\x6f\x76\x65\x72\x5f\x74\x65\155\160\x6c\141\x74\145\137\162\145\x71\165\151\x72\x65\x6d\x65\156\x74\x73", [$this->eskggqsasgsiommy("\x69\156\144\145\x78"), []]); echo $this->iuygowkemiiwqmiw($qqscaoyqikuyeoaw, $qookweymeqawmcwo); } public function ymaywccaiscsmsik() { $this->caokeucsksukesyo()->ogciwyoqgciosgcw()->ymaywccaiscsmsik("\155\157\x62\151\154\145\x2d\141\163\x69\144\x65", __("\x4d\x6f\x62\151\x6c\x65\x20\101\x73\x69\x64\x65", PR__CVR__FILEFOX), [self::ckyiayyeksyqosei => '', self::gkkeyqoigqiukkqk => '']); } public function mysamweggamekgow() { global $wp_widget_factory; $this->kuieicsuscgmwigg("\167\x70\137\150\145\x61\x64", [$wp_widget_factory->widgets["\127\x50\x5f\127\x69\144\x67\x65\164\x5f\122\145\143\x65\156\164\137\x43\157\155\x6d\145\156\x74\163"], "\x72\145\x63\145\156\164\137\x63\x6f\155\155\145\156\164\x73\137\x73\164\171\154\145"]); } }

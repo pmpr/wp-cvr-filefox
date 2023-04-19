@@ -1,2 +1,7 @@
-<?php pmpr_do_action('init_cover');
-
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             643ff50da5923             |
+    |_______________________________________|
+*/
+ pmpr_do_action("\151\x6e\151\164\x5f\x63\157\x76\145\162");
