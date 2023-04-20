@@ -1,0 +1,14 @@
+<div class="container">
+    {% include get_template('./mobile/index', _self) %}
+    <div class="d-flex justify-content-between py-3">
+        <div class="d-flex">
+            {% include get_cover_template('common/logo') with {
+                logo_type: 'header',
+                logo_size: [115, 30],
+                container_class: 'my-auto me-4'
+            } %}
+            {% include get_template('./search', _self) %}
+        </div>
+        {% include get_template('./menu', _self) %}
+    </div>
+</div>

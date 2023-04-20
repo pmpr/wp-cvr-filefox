@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             644166c8b4d37             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Cover\Filefox; use Pmpr\Common\Foundation\FormMaker\Front\Field\Select; use Pmpr\Common\Foundation\FormMaker\Front\Form; class Search extends Container { public function kgquecmsgcouyaya() { $this->aqaqisyssqeomwom("\x73\145\141\x72\x63\150\x5f\146\x6f\162\155\x5f\x6f\x62\x6a\x65\x63\x74", [$this, "\x71\x69\151\171\151\157\x73\x65\x77\143\x67\x77\x65\147\145\x69"])->aqaqisyssqeomwom("\163\x65\141\162\x63\x68\x5f\x66\x6f\x72\x6d\137\146\151\x65\x6c\x64\163", [$this, "\171\163\155\x6f\151\151\153\153\x79\151\x6b\x77\147\x77\x65\171"]); } public function qiiyiosewcgwegei($eaoumsseceiowgsk) { if (!$eaoumsseceiowgsk instanceof Form) { goto usqgaogkqgemuima; } $eaoumsseceiowgsk->qigsyyqgewgskemg("\163\145\141\x72\143\x68\55\146\157\162\155\x20\x6d\x79\x2d\141\x75\x74\x6f\x20\144\55\x66\x6c\x65\170"); usqgaogkqgemuima: return $eaoumsseceiowgsk; } public function ysmoiikkyikwgwey($ikgwqyuyckaewsow) { $gkyciwoiiisgywcs = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc(); $gkyciwoiiisgywcs->unset($ikgwqyuyckaewsow, self::iueeekcmggceyscu); $ccamueccusigaaio = $gkyciwoiiisgywcs->get($ikgwqyuyckaewsow, self::mgsccwumkcawaqcy); if (!$ccamueccusigaaio instanceof Select) { goto mswsoaimesegiiic; } $ccamueccusigaaio->qigsyyqgewgskemg("\167\55\141\165\x74\157"); mswsoaimesegiiic: return $ikgwqyuyckaewsow; } }

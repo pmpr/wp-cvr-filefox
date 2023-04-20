@@ -5,7 +5,8 @@
         has_container: 0
     } %}
     {% include get_template('./content', _self) with {
-        posts: have_posts()
+        items: have_posts(),
+        template: 'post',
     } %}
 {% endblock %}
 
