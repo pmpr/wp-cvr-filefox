@@ -1,16 +1,14 @@
 {% if items is defined
     and items is not empty %}
 
-    <div class="card">
-        <div class="card-body">
-            {% for index, item in items %}
-                <article class="position-relative{% if not loop.last %} mb-3 border-bottom{% endif %}">
-                    {% include get_cover_template('common/block/' ~ template) with {
-                        loop: loop,
-                    } %}
-                </article>
-            {% endfor %}
-        </div>
+    <div class="list">
+        {% for index, item in items %}
+            <article class="list-item">
+                {% include get_cover_template('common/block/' ~ template) with {
+                    loop: loop,
+                } %}
+            </article>
+        {% endfor %}
     </div>
 
     {% include get_template('./pagination', _self) %}

@@ -1,10 +1,1 @@
-<header>
-    {% set title = get_title(item) %}
-    <a href="{{ get_permalink(item)|esc_url }}" aria-label="{{ title|esc_attr }}" title="{{ title|esc_attr }}">
-        {{ render_if_has_content(heading_element|default('h3'), {class: ''}, title) }}
-    </a>
-</header>
-{% if has_excerpt(item) %}
-    <div class="excerpt">{{ wpautop(render_post_data('excerpt', item))|raw }}</div>
-{% endif %}
-
+{{ pmpr_do_action('archive_item', item) }}

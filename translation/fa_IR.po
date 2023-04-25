@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-04-25 16:41+0330\n"
+"POT-Creation-Date: 2023-04-25 18:48+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -28,6 +28,26 @@ msgstr ""
 #: functions.php:11
 msgid "Filefox"
 msgstr "فایل فاکس"
+
+#: src/Pmpr/Cover/Filefox/Archive.php:46
+#, php-format
+msgid "for %s "
+msgstr " برای %s"
+
+#: src/Pmpr/Cover/Filefox/Archive.php:47
+#, php-format
+msgid " in %s category"
+msgstr " در دسته %s"
+
+#: src/Pmpr/Cover/Filefox/Archive.php:53
+#, php-format
+msgid "in %s category"
+msgstr "در دسته %s"
+
+#: src/Pmpr/Cover/Filefox/Archive.php:163
+#, php-format
+msgid "%s view"
+msgstr "%s مشاهده"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:21
 msgid "Filefox Cover"
@@ -64,16 +84,6 @@ msgstr "عمومی"
 #: src/Pmpr/Cover/Filefox/Setting.php:33
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
-
-#: src/Pmpr/Cover/Filefox/Woocommerce/Template.php:30
-#, php-format
-msgid "for %s "
-msgstr " برای %s"
-
-#: src/Pmpr/Cover/Filefox/Woocommerce/Template.php:31
-#, php-format
-msgid " in %s category"
-msgstr " در دسته %s"
 
 #~ msgid "Herfe"
 #~ msgstr "حرفه هنرمند"
