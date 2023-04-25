@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-04-10 11:28+0330\n"
+"POT-Creation-Date: 2023-04-25 16:41+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -13,13 +13,68 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;esc_attr_e;"
-"esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;"
-"_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.2.2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: node_modules\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: functions.php:11
+msgid "Filefox"
+msgstr "فایل فاکس"
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:21
+msgid "Filefox Cover"
+msgstr "کاور فایل فاکس"
+
+#: src/Pmpr/Cover/Filefox/Header.php:33
+msgid "Mobile Aside"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:34
+msgid "Desktop Navigation Menu"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:35
+msgid "Mobile Navigation Menu"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Navigation/Walker/Mobile.php:67
+msgid "Arrow Icon"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Search.php:48
+msgid "Enter a keyword..."
+msgstr "یک کلمه کلیدی وارد کنید..."
+
+#: src/Pmpr/Cover/Filefox/Setting.php:24
+msgid "Cover Setting"
+msgstr "تنظیمات کاور"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:31
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:33
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Template.php:30
+#, php-format
+msgid "for %s "
+msgstr " برای %s"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Template.php:31
+#, php-format
+msgid " in %s category"
+msgstr " در دسته %s"
+
+#~ msgid "Herfe"
+#~ msgstr "حرفه هنرمند"
+
