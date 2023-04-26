@@ -4,15 +4,16 @@
     <div class="list">
         {% for index, item in items %}
             <article class="list-item">
-                {% include get_cover_template('common/block/' ~ template) with {
+                {% include get_cover_template('common/block/' ~ template|default('index')) with {
                     loop: loop,
                 } %}
             </article>
         {% endfor %}
     </div>
 
-    {% include get_template('./pagination', _self) %}
-
+    {% if pagination|default(1) %}
+        {% include get_template('./pagination', _self) %}
+    {% endif %}
 {% else %}
 
     {% include get_template('./empty', _self) %}

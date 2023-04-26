@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6447f0c44a64a             |
+    |             6448ec5b05e28             |
     |_______________________________________|
 */
- namespace Pmpr\Cover\Filefox; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } }
+ namespace Pmpr\Cover\Filefox; use Pmpr\Common\Foundation\Container\Container as BaseClass; use Pmpr\Cover\Filefox\Traits\CommonTrait; abstract class Container extends BaseClass { use CommonTrait; public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } }
