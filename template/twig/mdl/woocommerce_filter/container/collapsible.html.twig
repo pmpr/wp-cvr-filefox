@@ -1,0 +1,20 @@
+{% set collapsed = collapse_items and selected is defined and selected is empty %}
+{% if rednder|default(1) %}
+    {% block before_item %}{% endblock %}
+    <div class="accordion-item">
+        <h3 class="accordion-header" id="filter-heading-{{ id }}">
+            <button class="accordion-button py-2 px-0{% if collapsed %} collapsed{% endif %}"
+                    type="button" data-bs-target="#filter-collapse-{{ id }}" aria-expanded="false"
+                    aria-controls="filter-collapse-{{ id }}" data-bs-toggle="collapse">
+                {{ title|raw }}
+            </button>
+        </h3>
+        <div id="filter-collapse-{{ id|esc_attr }}" data-filter="{{ id|esc_attr }}"
+             class="accordion-collapse {% if not collapsed %} collapse show{% endif %}" aria-labelledby="filter-heading-{{ id }}">
+            <div class="accordion-body py-2 px-0">
+                {% block body %}{% endblock body %}
+            </div>
+        </div>
+    </div>
+    {% block after_item %}{% endblock %}
+{% endif %}
