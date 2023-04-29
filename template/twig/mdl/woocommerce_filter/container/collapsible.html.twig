@@ -3,15 +3,16 @@
     {% block before_item %}{% endblock %}
     <div class="accordion-item">
         <h3 class="accordion-header" id="filter-heading-{{ id }}">
-            <button class="accordion-button py-2 px-0{% if collapsed %} collapsed{% endif %}"
+            <button class="accordion-button{% if collapsed %} collapsed{% endif %}"
                     type="button" data-bs-target="#filter-collapse-{{ id }}" aria-expanded="false"
                     aria-controls="filter-collapse-{{ id }}" data-bs-toggle="collapse">
                 {{ title|raw }}
             </button>
+            {% block inside_item_header %}{% endblock %}
         </h3>
-        <div id="filter-collapse-{{ id|esc_attr }}" data-filter="{{ id|esc_attr }}"
+        <div id="filter-collapse-{{ id|esc_attr }}" data-filter="{{ id|esc_attr }}" data-bs-parent="#accordion_filters"
              class="accordion-collapse {% if not collapsed %} collapse show{% endif %}" aria-labelledby="filter-heading-{{ id }}">
-            <div class="accordion-body py-2 px-0">
+            <div class="accordion-body">
                 {% block body %}{% endblock body %}
             </div>
         </div>
