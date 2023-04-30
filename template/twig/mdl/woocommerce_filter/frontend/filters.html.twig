@@ -9,7 +9,9 @@
 
         <div class="accordion accordion-flush" id="accordion_filters">
             {% for filter in items %}
-                {{ filter|call('render') }}
+                {{ filter|call('render', {
+                    loop: loop
+                }) }}
             {% endfor %}
         </div>
 

@@ -15,7 +15,7 @@
 
 {% if inputs is not empty %}
     <ul id="{{ name }}-list{% if isChildren %}-{{ parent|esc_attr }}{% endif %}"
-        class="list-group filter-list ps-0{% if hide_more_items %} hide-filter-more{% endif %}{% if isChildren is defined and isChildren %} ms-4 children{% if hide_children is defined and hide_children %} d-none{% endif %}{% endif %}">
+        class="list-group filter-list ps-0{% if hide_more_items %} hide-filter-more{% endif %}{% if isChildren is defined and isChildren %} ms-3 children{% if hide_children is defined and hide_children %} d-none{% endif %}{% endif %}">
         {{ inputs|raw }}
     </ul>
     {% if hide_more_items %}
