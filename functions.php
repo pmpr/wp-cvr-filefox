@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             644f62e251e76             |
+    |             645115de41c0e             |
     |_______________________________________|
 */
- use Pmpr\Cover\Filefox\Filefox; $ooggiaqasyawsuks = Filefox::iwgqamekocwaigci(); $qcsieyqqegaoocks = Filefox::haqswuugoswcyoia(); $yqicqqkokawiosom = $ooggiaqasyawsuks->essaugkeosgskqme()->sskmceyamwugkaii(["\160\150\160" => "\x37\x2e\x32", "\167\x70" => "\65\x2e\62", "\164\151\x74\x6c\145" => __("\x46\151\x6c\x65\x66\x6f\170"), "\146\151\154\145" => __FILE__]); if ($yqicqqkokawiosom) { goto qiaqsassksqiuyae; } wp_die("\x52\x65\x71\165\x69\162\145\x6d\145\x6e\164\163\40\144\x69\144\40\x6e\x6f\x74\x20\160\141\x73\163\40\x66\x6f\x72\x20\x74\150\x65\40\x63\157\x76\145\162"); goto qogqewiwmwiwskgm; qiaqsassksqiuyae: if (!class_exists(Filefox::class)) { goto cecuyayqoioasumi; } $giyigwuwegmygqau = Filefox::symcgieuakksimmu(); cecuyayqoioasumi: qogqewiwmwiwskgm:
+ use Pmpr\Cover\Filefox\Filefox; $ooggiaqasyawsuks = Filefox::iwgqamekocwaigci(); $qcsieyqqegaoocks = Filefox::haqswuugoswcyoia(); $yqicqqkokawiosom = $ooggiaqasyawsuks->essaugkeosgskqme()->sskmceyamwugkaii(["\160\150\160" => "\x37\56\62", "\x77\x70" => "\x35\56\x32", "\164\x69\164\154\145" => __("\106\x69\154\x65\146\157\170"), "\x66\151\x6c\x65" => __FILE__]); if ($yqicqqkokawiosom) { goto qiaqsassksqiuyae; } wp_die("\122\145\x71\165\x69\162\145\155\x65\156\164\x73\40\x64\151\144\x20\x6e\157\x74\x20\160\141\x73\x73\x20\x66\x6f\x72\40\x74\150\145\x20\143\157\166\x65\162"); goto qogqewiwmwiwskgm; qiaqsassksqiuyae: if (!class_exists(Filefox::class)) { goto cecuyayqoioasumi; } $giyigwuwegmygqau = Filefox::symcgieuakksimmu(); cecuyayqoioasumi: qogqewiwmwiwskgm:
