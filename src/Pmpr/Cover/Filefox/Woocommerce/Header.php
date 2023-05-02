@@ -4,4 +4,4 @@
     |             645194b14c2a5             |
     |_______________________________________|
 */
- pmpr_do_action("\162\145\156\x64\145\x72\137\x66\x6f\x6f\x74\x65\x72");
+ namespace Pmpr\Cover\Filefox\Woocommerce; class Header extends Common { }

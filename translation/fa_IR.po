@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-04-25 18:48+0330\n"
+"POT-Creation-Date: 2023-05-03 00:44+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -29,22 +29,7 @@ msgstr ""
 msgid "Filefox"
 msgstr "فایل فاکس"
 
-#: src/Pmpr/Cover/Filefox/Archive.php:46
-#, php-format
-msgid "for %s "
-msgstr " برای %s"
-
-#: src/Pmpr/Cover/Filefox/Archive.php:47
-#, php-format
-msgid " in %s category"
-msgstr " در دسته %s"
-
-#: src/Pmpr/Cover/Filefox/Archive.php:53
-#, php-format
-msgid "in %s category"
-msgstr "در دسته %s"
-
-#: src/Pmpr/Cover/Filefox/Archive.php:163
+#: src/Pmpr/Cover/Filefox/Archive.php:114
 #, php-format
 msgid "%s view"
 msgstr "%s مشاهده"
@@ -57,13 +42,18 @@ msgstr "کاور فایل فاکس"
 msgid "Mobile Aside"
 msgstr ""
 
-#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:34
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:36
 msgid "Desktop Navigation Menu"
 msgstr ""
 
-#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:35
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:37
 msgid "Mobile Navigation Menu"
 msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Navigation/Walker/Desktop.php:56
+#, php-format
+msgid "See all %s"
+msgstr "مشاهده همه %s"
 
 #: src/Pmpr/Cover/Filefox/Navigation/Walker/Mobile.php:67
 msgid "Arrow Icon"
@@ -84,6 +74,29 @@ msgstr "عمومی"
 #: src/Pmpr/Cover/Filefox/Setting.php:33
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:63
+#, php-format
+msgid "for %s "
+msgstr " برای %s"
+
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:64
+#, php-format
+msgid " in %s category"
+msgstr " در دسته %s"
+
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:70
+#, php-format
+msgid "in %s category"
+msgstr "در دسته %s"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Backend.php:25
+msgid "Plural Name"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Backend.php:29
+msgid "Menu Icon"
+msgstr ""
 
 #~ msgid "Herfe"
 #~ msgstr "حرفه هنرمند"
