@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-05-03 00:44+0330\n"
+"POT-Creation-Date: 2023-05-07 11:06+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -34,13 +34,13 @@ msgstr "فایل فاکس"
 msgid "%s view"
 msgstr "%s مشاهده"
 
-#: src/Pmpr/Cover/Filefox/Filefox.php:21
+#: src/Pmpr/Cover/Filefox/Filefox.php:22
 msgid "Filefox Cover"
 msgstr "کاور فایل فاکس"
 
 #: src/Pmpr/Cover/Filefox/Header.php:33
 msgid "Mobile Aside"
-msgstr ""
+msgstr "منوی موبایل"
 
 #: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:36
 msgid "Desktop Navigation Menu"
@@ -50,35 +50,59 @@ msgstr ""
 msgid "Mobile Navigation Menu"
 msgstr ""
 
-#: src/Pmpr/Cover/Filefox/Navigation/Walker/Desktop.php:56
+#: src/Pmpr/Cover/Filefox/Navigation/Walker/Desktop.php:54
 #, php-format
 msgid "See all %s"
 msgstr "مشاهده همه %s"
 
 #: src/Pmpr/Cover/Filefox/Navigation/Walker/Mobile.php:67
 msgid "Arrow Icon"
-msgstr ""
+msgstr "آیکون پیکان"
+
+#: src/Pmpr/Cover/Filefox/Page/About.php:22
+msgid "About"
+msgstr "درباره ما"
+
+#: src/Pmpr/Cover/Filefox/Page/Download.php:22
+msgid "Download"
+msgstr "دانلود"
 
 #: src/Pmpr/Cover/Filefox/Search.php:48
 msgid "Enter a keyword..."
 msgstr "یک کلمه کلیدی وارد کنید..."
 
-#: src/Pmpr/Cover/Filefox/Setting.php:24
+#: src/Pmpr/Cover/Filefox/Setting.php:26
 msgid "Cover Setting"
 msgstr "تنظیمات کاور"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:31
+#: src/Pmpr/Cover/Filefox/Setting.php:34
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:33
+#: src/Pmpr/Cover/Filefox/Setting.php:36
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:40
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:42
+msgid "WooCommerce Configuration"
+msgstr "پیکربندی ووکامرس"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:45
+msgid "Download List"
+msgstr "لیست دانلود"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:49
+msgid "Download Title"
+msgstr "عنوان دانلود"
 
 #: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:63
 #, php-format
 msgid "for %s "
-msgstr " برای %s"
+msgstr "برای %s "
 
 #: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:64
 #, php-format
@@ -92,11 +116,31 @@ msgstr "در دسته %s"
 
 #: src/Pmpr/Cover/Filefox/Woocommerce/Backend.php:25
 msgid "Plural Name"
-msgstr ""
+msgstr "نام جمع"
 
-#: src/Pmpr/Cover/Filefox/Woocommerce/Backend.php:29
-msgid "Menu Icon"
-msgstr ""
+#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:88
+msgid "Downloads"
+msgstr "دانلود‌ها"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:170
+#, php-format
+msgid "Download %s"
+msgstr "دانلود %s"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:184
+#, php-format
+msgid "%s times downloaded"
+msgstr "%s بار دانلود شده"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:188
+#, php-format
+msgid "%s KB"
+msgstr "%s کیلوبایت"
+
+#, fuzzy
+#~| msgid "Download Title"
+#~ msgid "Download {title}"
+#~ msgstr "عنوان دانلود"
 
 #~ msgid "Herfe"
 #~ msgstr "حرفه هنرمند"
