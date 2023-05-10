@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-05-07 11:06+0330\n"
+"POT-Creation-Date: 2023-05-07 16:36+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -63,41 +63,29 @@ msgstr "آیکون پیکان"
 msgid "About"
 msgstr "درباره ما"
 
-#: src/Pmpr/Cover/Filefox/Page/Download.php:22
-msgid "Download"
-msgstr "دانلود"
-
 #: src/Pmpr/Cover/Filefox/Search.php:48
 msgid "Enter a keyword..."
 msgstr "یک کلمه کلیدی وارد کنید..."
 
-#: src/Pmpr/Cover/Filefox/Setting.php:26
+#: src/Pmpr/Cover/Filefox/Setting.php:25
 msgid "Cover Setting"
 msgstr "تنظیمات کاور"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:34
+#: src/Pmpr/Cover/Filefox/Setting.php:33
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:36
+#: src/Pmpr/Cover/Filefox/Setting.php:35
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:40
+#: src/Pmpr/Cover/Filefox/Setting.php:39
 msgid "WooCommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:42
+#: src/Pmpr/Cover/Filefox/Setting.php:41
 msgid "WooCommerce Configuration"
 msgstr "پیکربندی ووکامرس"
-
-#: src/Pmpr/Cover/Filefox/Setting.php:45
-msgid "Download List"
-msgstr "لیست دانلود"
-
-#: src/Pmpr/Cover/Filefox/Setting.php:49
-msgid "Download Title"
-msgstr "عنوان دانلود"
 
 #: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:63
 #, php-format
@@ -118,24 +106,26 @@ msgstr "در دسته %s"
 msgid "Plural Name"
 msgstr "نام جمع"
 
-#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:88
-msgid "Downloads"
-msgstr "دانلود‌ها"
+#~ msgid "Download"
+#~ msgstr "دانلود"
 
-#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:170
-#, php-format
-msgid "Download %s"
-msgstr "دانلود %s"
+#~ msgid "Download List"
+#~ msgstr "لیست دانلود"
 
-#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:184
-#, php-format
-msgid "%s times downloaded"
-msgstr "%s بار دانلود شده"
+#~ msgid "Download Title"
+#~ msgstr "عنوان دانلود"
 
-#: src/Pmpr/Cover/Filefox/Woocommerce/Single.php:188
-#, php-format
-msgid "%s KB"
-msgstr "%s کیلوبایت"
+#~ msgid "Downloads"
+#~ msgstr "دانلود‌ها"
+
+#~ msgid "Download %s"
+#~ msgstr "دانلود %s"
+
+#~ msgid "%s times downloaded"
+#~ msgstr "%s بار دانلود شده"
+
+#~ msgid "%s KB"
+#~ msgstr "%s کیلوبایت"
 
 #, fuzzy
 #~| msgid "Download Title"

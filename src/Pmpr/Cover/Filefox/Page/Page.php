@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6457947d922eb             |
+    |             645b566cadeef             |
     |_______________________________________|
 */
- namespace Pmpr\Cover\Filefox\Page; use Pmpr\Cover\Filefox\Container; class Page extends Container { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { About::symcgieuakksimmu(); Download::symcgieuakksimmu(); } }
+ namespace Pmpr\Cover\Filefox\Page; use Pmpr\Cover\Filefox\Container; class Page extends Container { public function __construct() { parent::__construct(); $this->iemaakgqgqosiecm(); } public function iemaakgqgqosiecm() { About::symcgieuakksimmu(); } }
