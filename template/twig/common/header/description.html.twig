@@ -1,2 +1,2 @@
-{{ wpautop(description)|raw }}
+{{ render_if_has_content('div', {class: 'mb-2'}, wpautop(description)) }}
 

@@ -1,0 +1,44 @@
+{% extends get_template('./common', _self) %}
+
+{% block main %}
+
+    {{ parent() }}
+
+    {% set tabs = {
+        submit: {
+            title: submit_title,
+            active: 1,
+            content: submit_form,
+        },
+        track: {
+            title: track_title,
+            active: 0,
+            content: track_form,
+        }
+    } %}
+
+    <ul class="nav nav-fill nav-tabs" id="tab" role="tablist">
+        {% for id, tab in tabs %}
+            <li class="nav-item" role="presentation">
+                {{ render_if_has_content('button', {
+                    id: id ~ '_tab',
+                    role: 'tab',
+                    type: 'button',
+                    class: 'nav-link' ~ (tab.active ? ' active' : ''),
+                    'aria-controls': id,
+                    'data-bs-toggle': 'tab',
+                    'data-bs-target': '#' ~ id,
+                    'aria-selected': 'true',
+                }, tab.title) }}
+            </li>
+        {% endfor %}
+    </ul>
+    <div class="tab-content p-3 border-start border-end border-bottom bg-white" id="tab_content">
+        {% for id, tab in tabs %}
+            <div id="{{ id|esc_attr }}" class="tab-pane fade{% if tab.active %} active show{% endif %}" aria-labelledby="{{ id|esc_attr }}_tab">
+                <div class="message-wrapper pb-3"></div>
+               {{ tab.content|raw }}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
