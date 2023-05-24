@@ -8,14 +8,16 @@
         submit: {
             title: submit_title,
             active: 1,
-            content: submit_form,
+            action: submit_action
         },
         track: {
             title: track_title,
             active: 0,
-            content: track_form,
+            action: track_action
         }
     } %}
+
+    <div class="ticket-message"></div>
 
     <ul class="nav nav-fill nav-tabs" id="tab" role="tablist">
         {% for id, tab in tabs %}
@@ -33,11 +35,13 @@
             </li>
         {% endfor %}
     </ul>
-    <div class="tab-content p-3 border-start border-end border-bottom bg-white" id="tab_content">
+    <div class="tab-content p-4 border-start border-end border-bottom bg-white" id="tab_content">
         {% for id, tab in tabs %}
-            <div id="{{ id|esc_attr }}" class="tab-pane fade{% if tab.active %} active show{% endif %}" aria-labelledby="{{ id|esc_attr }}_tab">
-                <div class="message-wrapper pb-3"></div>
-               {{ tab.content|raw }}
+            <div class="ticket-form-wrapper tab-pane fade{% if tab.active %} active show{% endif %}" data-action="{{ tab.action|esc_attr }}"
+                 id="{{ id|esc_attr }}" role="tabpanel" aria-labelledby="{{ id|esc_attr }}_tab">
+                <div class="d-flex justify-content-center my-3">
+                    {{ render_frontend_spinner() }}
+                </div>
             </div>
         {% endfor %}
     </div>
