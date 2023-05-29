@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-05-07 16:36+0330\n"
+"POT-Creation-Date: 2023-05-28 18:52+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
 "__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 "X-Poedit-SearchPathExcluded-3: asset\n"
 "X-Poedit-SearchPathExcluded-4: build\n"
@@ -34,13 +34,53 @@ msgstr "فایل فاکس"
 msgid "%s view"
 msgstr "%s مشاهده"
 
-#: src/Pmpr/Cover/Filefox/Filefox.php:22
+#: src/Pmpr/Cover/Filefox/Filefox.php:26
 msgid "Filefox Cover"
 msgstr "کاور فایل فاکس"
 
-#: src/Pmpr/Cover/Filefox/Header.php:33
+#: src/Pmpr/Cover/Filefox/Filefox.php:82
+msgid "Primary"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:83
+msgid "Secondary"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:84
+msgid "Success"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:85
+msgid "Info"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:86
+msgid "Warning"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:87
+msgid "Danger"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:97
+msgid "Small"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:98
+msgid "Medium"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Filefox.php:99
+msgid "Large"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Header.php:35
 msgid "Mobile Aside"
 msgstr "منوی موبایل"
+
+#: src/Pmpr/Cover/Filefox/Header.php:40
+msgid "Header Bottom Left"
+msgstr ""
 
 #: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:36
 msgid "Desktop Navigation Menu"
@@ -59,7 +99,7 @@ msgstr "مشاهده همه %s"
 msgid "Arrow Icon"
 msgstr "آیکون پیکان"
 
-#: src/Pmpr/Cover/Filefox/Page/About.php:22
+#: src/Pmpr/Cover/Filefox/Page/About.php:23
 msgid "About"
 msgstr "درباره ما"
 
