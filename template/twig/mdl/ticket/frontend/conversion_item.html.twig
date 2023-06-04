@@ -1,0 +1,7 @@
+{% set hasAgent = responder is defined and responder is not empty %}
+<div class="conversion{% if hasAgent %} response pe-5{% else %} request ps-5{% endif %}">
+    <div class="conversion-text d-table my-auto p-2{% if hasAgent %} bg-gray-300{% else %} bg-primary text-white{% endif %}">
+        {{ wpautop(text)|raw }}
+    </div>
+    <time class="conversion-datetime text-muted" datetime="{{ created_at|esc_attr }}">{{ created_at|datetime('j F Y H:i')|raw }}</time>
+</div>
