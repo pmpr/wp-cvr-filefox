@@ -17,7 +17,7 @@
             <div id="message_wrapper" class="my-3 text-center"></div>
             <div class="card download-card position-relative">
                 {% if wait_enabled %}
-                    <div class="start-download position-absolute top-50 start-50 translate-middle">
+                    <div class="start-download text-center position-absolute top-50 start-50 translate-middle">
                         {{ render_if_has_content('div', {class: 'fs-6'}, wpautop(start_message)) }}
                         <button role="button" class="start-download btn btn-primary btn-lg">{{ start_button|raw }}</button>
                     </div>
@@ -31,9 +31,9 @@
                     </div>
                 {% endif %}
 
-                <div class="card-body download p-5 text-center pr-invisible">
+                <div class="card-body downloads p-5 text-center pr-invisible">
                     {{ render_if_has_content('div', {class: 'fs-6'}, wpautop(download_message)) }}
-                    <a href="#" class="download-link btn btn-primary btn-lg px-5">{{ download_button|raw }}</a>
+{#                    <a href="#" class="download-link btn btn-primary btn-lg px-5">{{ download_button|raw }}</a>#}
                 </div>
             </div>
         {% endif %}
