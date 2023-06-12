@@ -1,6 +1,10 @@
-<div class="d-flex flex-column">
-    {% for url in items %}
-        <a href="{{ url|raw }}" class="btn btn-primary d-block{% if not loop.last %} mb-2{% endif %}">download</a>
+<div class="row">
+    {% for item in items %}
+        {% set col = 'col-12 col-md-6' %}
+        <div class="{{ col }} {{ margin_bottom(loop, col, 3) }}">
+            <a href="{{ item.url|raw }}"
+               class="btn btn-primary d-block">{{ item.text|raw }}</a>
+        </div>
     {% endfor %}
 </div>
 
