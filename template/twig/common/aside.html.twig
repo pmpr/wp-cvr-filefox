@@ -2,7 +2,7 @@
 {% set is_right = is_right|default(0) %}
 {% set full_height = full_height|default(1) %}
 {% set border_color = border_color|default('gray-200') %}
-<div class="aside shadow{% if is_right %} aside-right{% endif %}{% if container_class is defined and container_class is not empty %} {{ container_class|raw }}{% endif %}"
+<div class="aside shadow z-lg{% if is_right %} aside-right{% endif %}{% if container_class is defined and container_class is not empty %} {{ container_class|raw }}{% endif %}"
      id="{{ aside_id|esc_attr }}_aside">
     <div class="aside-wrapper position-relative{% if full_height %} min-vh-100{% endif %}{% if wrapper_class is defined and wrapper_class is not empty %} {{ wrapper_class|raw }}{% endif %}">
         {% if has_header|default(0) %}
