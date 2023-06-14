@@ -14,13 +14,15 @@
 
 {% if pmpr_apply_filters('has_header', 1) %}
 
-<header id="site_header" class="site-header header-area">
-    <div class="position-relative bg-white z-md">
-        {% include get_template('./top/index', _self) %}
-        {% include get_template('./bottom/index', _self) %}
-    </div>
-    {% if pmpr_apply_filters('breadcrumb_allow_render', 1) %}
-        {% include get_template('./breadcrumb', _self) %}
-    {% endif %}
-</header>
+    <header id="site_header" class="site-header header-area">
+        <div class="position-relative bg-white">
+            {% include get_template('./top/index', _self) %}
+            {% include get_template('./bottom/index', _self) %}
+        </div>
+        {% if pmpr_apply_filters('breadcrumb_allow_render', 1) %}
+            {% include get_template('./breadcrumb', _self) %}
+        {% endif %}
+    </header>
+    {% include get_template('./mobile_aside', _self) %}
+
 {% endif %}
