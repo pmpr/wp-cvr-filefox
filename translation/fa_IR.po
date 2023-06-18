@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Filefox Cover\n"
 "Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
-"POT-Creation-Date: 2023-05-28 18:52+0330\n"
+"POT-Creation-Date: 2023-06-17 15:54+0330\n"
 "PO-Revision-Date: \n"
 "Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
 "Language-Team: Your Team <translations@example.com>\n"
@@ -14,9 +14,8 @@ msgstr ""
 "X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
-"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 3.3.1\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
@@ -40,53 +39,61 @@ msgstr "کاور فایل فاکس"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:82
 msgid "Primary"
-msgstr ""
+msgstr "اصلی"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:83
 msgid "Secondary"
-msgstr ""
+msgstr "ثانویه"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:84
 msgid "Success"
-msgstr ""
+msgstr "موفق"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:85
 msgid "Info"
-msgstr ""
+msgstr "اطلاعات"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:86
 msgid "Warning"
-msgstr ""
+msgstr "هشدار"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:87
 msgid "Danger"
-msgstr ""
+msgstr "خطر"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:97
 msgid "Small"
-msgstr ""
+msgstr "کوچک"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:98
 msgid "Medium"
-msgstr ""
+msgstr "متوسط"
 
 #: src/Pmpr/Cover/Filefox/Filefox.php:99
 msgid "Large"
-msgstr ""
+msgstr "بزرگ"
 
-#: src/Pmpr/Cover/Filefox/Header.php:35
+#: src/Pmpr/Cover/Filefox/Header.php:46 src/Pmpr/Cover/Filefox/Setting.php:254
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: src/Pmpr/Cover/Filefox/Header.php:51 src/Pmpr/Cover/Filefox/Setting.php:223
+msgid "Account"
+msgstr "حساب کاربری"
+
+#: src/Pmpr/Cover/Filefox/Header.php:109
 msgid "Mobile Aside"
 msgstr "منوی موبایل"
 
-#: src/Pmpr/Cover/Filefox/Header.php:40
+#: src/Pmpr/Cover/Filefox/Header.php:114
 msgid "Header Bottom Left"
 msgstr ""
 
-#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:36
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:35
 msgid "Desktop Navigation Menu"
 msgstr ""
 
-#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:37
+#: src/Pmpr/Cover/Filefox/Navigation/Navigation.php:36
 msgid "Mobile Navigation Menu"
 msgstr ""
 
@@ -107,37 +114,173 @@ msgstr "درباره ما"
 msgid "Enter a keyword..."
 msgstr "یک کلمه کلیدی وارد کنید..."
 
-#: src/Pmpr/Cover/Filefox/Setting.php:25
+#: src/Pmpr/Cover/Filefox/Setting.php:68
 msgid "Cover Setting"
 msgstr "تنظیمات کاور"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:33
+#: src/Pmpr/Cover/Filefox/Setting.php:76 src/Pmpr/Cover/Filefox/Setting.php:214
 msgid "General"
 msgstr "عمومی"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:35
+#: src/Pmpr/Cover/Filefox/Setting.php:78
 msgid "General Configuration"
 msgstr "پیکربندی عمومی"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:39
+#: src/Pmpr/Cover/Filefox/Setting.php:82
+msgid "Home"
+msgstr "خانه"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:84
+msgid "Homepage Configuration"
+msgstr "پیکربندی صفحه اصلی"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:87
+msgid "Sections"
+msgstr "بخش‌ها"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:91
+msgid "Above the Fold"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:95 src/Pmpr/Cover/Filefox/Setting.php:120
+#: src/Pmpr/Cover/Filefox/Setting.php:143
+#: src/Pmpr/Cover/Filefox/Setting.php:179
+#: src/Pmpr/Cover/Filefox/Setting.php:197
+msgid "Section Title"
+msgstr "عنوان بخش"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:99 src/Pmpr/Cover/Filefox/Setting.php:124
+#: src/Pmpr/Cover/Filefox/Setting.php:147
+#: src/Pmpr/Cover/Filefox/Setting.php:183
+#: src/Pmpr/Cover/Filefox/Setting.php:201
+msgid "Section Description"
+msgstr "شرح بخش"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:103
+msgid "Section Call to Action"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:107
+msgid "Section Call to Action Text"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:112
+#: src/Pmpr/Cover/Filefox/Setting.php:129
+msgid "Comments"
+msgstr "دیدگاه‌‌ها"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:116
+#: src/Pmpr/Cover/Filefox/Setting.php:139
+#: src/Pmpr/Cover/Filefox/Setting.php:175
+#: src/Pmpr/Cover/Filefox/Setting.php:193
+msgid "Enable Section"
+msgstr "فعال کردن بخش"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:135
+#: src/Pmpr/Cover/Filefox/Setting.php:152
+msgid "Features"
+msgstr "ویژگی‌ها"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:155
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:159
+msgid "Button Link"
+msgstr "پیوند دکمه"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:164
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:165
+msgid "More Details"
+msgstr "جزئیات بیشتر"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:171
+msgid "Plans"
+msgstr "پلن‌ها"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:189
+msgid "Links"
+msgstr "پیوند‌ها"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:209
+msgid "Header"
+msgstr "سربرگ سایت (هدر)"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:211
+msgid "Header Configuration"
+msgstr "پیکربندی هدر"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:218
+msgid "Mobile Toggle Aside Icon"
+msgstr "آیکون باز کردن منو در موبایل"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:227
+#: src/Pmpr/Cover/Filefox/Setting.php:258
+msgid "Enable"
+msgstr "فعال"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:228
+msgid "Check this option, if you want enable account functionality in header."
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:232
+msgid "Before Login Icon"
+msgstr "آیکون قبل از ورود کاربر"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:233
+msgid "This icon used for guests."
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:237
+msgid "Show User Avatar"
+msgstr "نمایش آواتار کاربر"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:239
+msgid "Check this option, if you want show user avatar after login."
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:243
+msgid "After Login Icon"
+msgstr "آیکون بعد از ورود کاربر"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:244
+msgid "This icon used for users, after login."
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:248
+msgid "Header My Account Items"
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:259
+msgid "Check this option, if you want enable cart functionality in header."
+msgstr ""
+
+#: src/Pmpr/Cover/Filefox/Setting.php:263
+msgid "Icon"
+msgstr "آیکون"
+
+#: src/Pmpr/Cover/Filefox/Setting.php:269
 msgid "WooCommerce"
 msgstr "ووکامرس"
 
-#: src/Pmpr/Cover/Filefox/Setting.php:41
+#: src/Pmpr/Cover/Filefox/Setting.php:271
 msgid "WooCommerce Configuration"
 msgstr "پیکربندی ووکامرس"
 
-#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:63
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:64
 #, php-format
 msgid "for %s "
 msgstr "برای %s "
 
-#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:64
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:65
 #, php-format
 msgid " in %s category"
 msgstr " در دسته %s"
 
-#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:70
+#: src/Pmpr/Cover/Filefox/Traits/CommonTrait.php:71
 #, php-format
 msgid "in %s category"
 msgstr "در دسته %s"
@@ -145,6 +288,26 @@ msgstr "در دسته %s"
 #: src/Pmpr/Cover/Filefox/Woocommerce/Backend.php:25
 msgid "Plural Name"
 msgstr "نام جمع"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Header.php:40
+msgid "Shopping Cart"
+msgstr "سبد خرید"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Header.php:41
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Header.php:42
+msgid "No products in the cart."
+msgstr "سبد خرید شما خالی است."
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Header.php:87
+msgid "My Account"
+msgstr "حساب کاربری من"
+
+#: src/Pmpr/Cover/Filefox/Woocommerce/Header.php:88
+msgid "View Account"
+msgstr "مشاهده حساب کاربری"
 
 #~ msgid "Download"
 #~ msgstr "دانلود"

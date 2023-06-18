@@ -1,0 +1,30 @@
+{% extends get_cover_template('common/carousel/carousel') %}
+
+{% set carousel_class = 'full-width animated-carousel front-first-slider max-vh-100' %}
+{% set container_class = 'overflow-hidden max-vh-100' %}
+
+{% set carousel_config = {
+    fade: true,
+    loop: true,
+    dots: false,
+    speed: 1000,
+    arrows: false,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplaySpeed: 8000,
+    variableWidth: false,
+    adaptiveHeight: false
+} %}
+
+{% block carousel %}
+    <article class="carousel-item-content">
+        <div class="d-flex">
+            {{ get_avatar(carousel, avatar_size, {class: 'avatar-img rounded-circle mx-auto'})|raw }}
+            <div class="pr-text">
+                <small>{{ subtext|raw }}</small>
+                {{ wpautop(get_comment_text(carousel)) }}
+            </div>
+        </div>
+    </article>
+{% endblock %}
