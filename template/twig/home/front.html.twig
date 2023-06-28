@@ -13,7 +13,7 @@
     {% for name in sections %}
         {% set options = get_cover_option(name, {}) %}
         {% if options.enable is defined and options.enable %}
-            <section class="py-5{% if not loop.index % 2 == 0 and not loop.first and not loop.last %} bg-gray-300{% endif %}">
+            <section class="py-5{% if rendered % 2 == 0 %} bg-gray-300{% endif %}">
                 {% if options.title is not empty %}
                     {% if options.hidden_title is not defined or not options.hidden_title %}
                         <div class="container mb-4">
