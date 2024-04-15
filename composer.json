@@ -13,11 +13,16 @@
     "php": ">=7.4",
     "pmpr-cmn/wp-cmn-cover": "~1.1"
   },
+  "prod-require": {
+    "php": "7.4",
+    "wordpress": "6.0",
+    "wp-cmn-cover": "latest"
+  },
   "autoload": {
     "psr-4": {
       "Pmpr\\Cover\\Filefox\\": "src/Pmpr/Cover/Filefox"
     }
   },
   "minimum-stability": "dev",
-  "tag": "1.0.53"
+  "tag": "1.0.54"
 }
