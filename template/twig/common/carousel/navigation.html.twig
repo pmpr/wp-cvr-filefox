@@ -1,7 +1,7 @@
-<div class="carousel-arrow separated-arrows {{ class|esc_attr }}">
+<div class="carousel-navigation separated-arrows {{ class|esc_attr }}">
     {% set icon = icon|default('angle') %}
-    {% set btn_class = btn_class|default('') ~ ' bg-primary d-flex' %}
-    {% set icon_attrs = {class: 'm-auto icon-white'} %}
+    {% set btn_class = btn_class|default('') %}
+    {% set icon_attrs = icon_attrs|default({})|add({class: 'm-auto icon-white'}) %}
     <a class="prev {{ btn_class }} {{ prev_class }}">
         {{ render_icon('fasm/6/set/' ~ icon ~ '-right', icon_attrs, 1) }}
     </a>
