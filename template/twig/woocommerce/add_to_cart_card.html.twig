@@ -1,7 +1,6 @@
 <div class="card shadow-sm add-to-cart-card {{ wrapper_class|esc_attr }}">
     <div class="card-body">
-        {% if show_versions
-            and versions_text is not empty %}
+        {% if show_versions and versions_text is not empty %}
             <div class="d-flex justify-content-between">
                 <span class="fs-14 my-auto">{{ versions_text|raw }}</span>
                 {% include get_cover_template('common/action') with {
@@ -28,6 +27,7 @@
                         element: 'span',
                         as_button: 1,
                         action_text: recommendation.action_text,
+                        action_link: recommendation.action_link,
                         action_attrs: {class: 'btn-light fs-12 text-secondary-primary mx-2'},
                     } %}
                     <hr class="flex-grow-1 my-auto">
@@ -63,6 +63,19 @@
                 } %}
             {% endif %}
         </div>
+
+        {% if metadata is not empty %}
+            <ul class="list-group list-group-flush mt-2">
+                {% for meta in metadata %}
+                    {% if meta.value is not empty %}
+                        <li class="list-group-item fs-14 border-0 d-flex justify-content-between px-0 py-1{% if loop.last %} pb-0{% endif %}">
+                            <span>{{ meta.title|raw }}</span>
+                            <strong>{{ meta.value|raw }}</strong>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endif %}
 
         {% if has_features and features is not empty %}
             <hr class="my-3">
