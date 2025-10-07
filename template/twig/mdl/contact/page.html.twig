@@ -1,5 +1,9 @@
-<section class="bg-light">
-    <div class="container">
+{% extends get_cover_template('container') %}
+{% block inside_container %}
+    <main>
+        {% include get_cover_template('common/header/index') with {
+            has_container: 0
+        } %}
         {{ content|raw }}
         <div class="row my-4">
             <div class="col-12 col-lg-6 col-xl-7 mb-5 mb-lg-0 d-flex">
@@ -53,5 +57,6 @@
                 wrapper_class: 'justify-content-end'
             } %}
         {% endif %}
-    </div>
-</section>
+    </main>
+{% endblock %}
+
